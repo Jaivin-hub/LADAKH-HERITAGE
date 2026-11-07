@@ -10,3 +10,21 @@
 }
 html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+
+@keyframes heritage-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.heritage-marquee-track { animation: heritage-scroll 28s linear infinite; }
+.heritage-marquee:hover .heritage-marquee-track { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .heritage-marquee { overflow-x: auto; }
+  .heritage-marquee-track { animation: none; }
+  .heritage-marquee-track > [aria-hidden="true"] { display: none; }
+}
+
+.catalogue-filter { width: 100%; }
+.collection-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.category-rail { scrollbar-width: thin; scrollbar-color: #c7b69b transparent; overscroll-behavior-x: contain; }
+.category-rail::-webkit-scrollbar { height: 3px; }
+.category-rail::-webkit-scrollbar-thumb { background: #c7b69b; border-radius: 4px; }

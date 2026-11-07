@@ -1,0 +1,562 @@
+[
+  {
+    "id": "lh-silver-pendant-01",
+    "slug": "vintage-silver-pendant-01",
+    "title": "Multicolour Flower Drop Pendant",
+    "x": 84,
+    "y": 213,
+    "subject": "large multi-stone floral pendant with dark oval centre, pink oval top and pink and pale yellow petal stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large multi-stone floral pendant with dark oval centre, pink oval top and pink and pale yellow petal stones. Target centre x=84, y=213 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-02",
+    "slug": "vintage-silver-pendant-02",
+    "title": "Red Square Lattice Pendant",
+    "x": 199,
+    "y": 168,
+    "subject": "diamond-shaped grid of small dark red squares with ornate elongated silver top and small drops",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): diamond-shaped grid of small dark red squares with ornate elongated silver top and small drops. Target centre x=199, y=168 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-03",
+    "slug": "vintage-silver-pendant-03",
+    "title": "Pearl Triangle Cluster Pendant",
+    "x": 320,
+    "y": 120,
+    "subject": "white triangular pearly centre surrounded by small purple and pale green stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): white triangular pearly centre surrounded by small purple and pale green stones. Target centre x=320, y=120 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-04",
+    "slug": "vintage-silver-pendant-04",
+    "title": "Mixed Stone Circle Pendant",
+    "x": 452,
+    "y": 122,
+    "subject": "open circular silver frame holding irregular red orange white and pale purple stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): open circular silver frame holding irregular red orange white and pale purple stones. Target centre x=452, y=122 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-05",
+    "slug": "vintage-silver-pendant-05",
+    "title": "Purple Mosaic Square Pendant",
+    "x": 620,
+    "y": 145,
+    "subject": "large square silver frame filled with many small purple stones and ornate tall bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large square silver frame filled with many small purple stones and ornate tall bail. Target centre x=620, y=145 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-06",
+    "slug": "vintage-silver-pendant-06",
+    "title": "Dark Banded Oval Pendant",
+    "x": 810,
+    "y": 180,
+    "subject": "long dark green-grey banded oval stone in a simple narrow silver rim",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): long dark green-grey banded oval stone in a simple narrow silver rim. Target centre x=810, y=180 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-07",
+    "slug": "vintage-silver-pendant-07",
+    "title": "Pink and Green Leaf Pendant",
+    "x": 746,
+    "y": 250,
+    "subject": "long ornate leaf-shaped silver openwork with small pink and green stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): long ornate leaf-shaped silver openwork with small pink and green stones. Target centre x=746, y=250 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-08",
+    "slug": "vintage-silver-pendant-08",
+    "title": "Ornate Peacock Filigree Pendant",
+    "x": 635,
+    "y": 350,
+    "subject": "large intricate pointed silver filigree pendant with peacock-like swirling centre and tiny green and red accents",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large intricate pointed silver filigree pendant with peacock-like swirling centre and tiny green and red accents. Target centre x=635, y=350 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-09",
+    "slug": "vintage-silver-pendant-09",
+    "title": "Pink Oval Cabochon Pendant",
+    "x": 856,
+    "y": 344,
+    "subject": "large smooth pink oval stone, smaller pink round top stone and ornate bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large smooth pink oval stone, smaller pink round top stone and ornate bail. Target centre x=856, y=344 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-10",
+    "slug": "vintage-silver-pendant-10",
+    "title": "Pastel Stone Teardrop Pendant",
+    "x": 285,
+    "y": 307,
+    "subject": "large teardrop silver frame with cluster of pastel pink pale green and grey stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large teardrop silver frame with cluster of pastel pink pale green and grey stones. Target centre x=285, y=307 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-11",
+    "slug": "vintage-silver-pendant-11",
+    "title": "Carved Pink Oval Pendant",
+    "x": 508,
+    "y": 315,
+    "subject": "pale pink oval carved stone with leaf-like incised lines, pink top bead and ornate bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): pale pink oval carved stone with leaf-like incised lines, pink top bead and ornate bail. Target centre x=508, y=315 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-12",
+    "slug": "vintage-silver-pendant-12",
+    "title": "Pearl Centre Diamond Pendant",
+    "x": 105,
+    "y": 480,
+    "subject": "large warm brown diamond-shaped flat panel with round white pearl-like centre",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large warm brown diamond-shaped flat panel with round white pearl-like centre. Target centre x=105, y=480 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-13",
+    "slug": "vintage-silver-pendant-13",
+    "title": "Blue Cloud Cluster Pendant",
+    "x": 268,
+    "y": 490,
+    "subject": "large pale blue irregular oval centre surrounded by small pale blue and clear stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large pale blue irregular oval centre surrounded by small pale blue and clear stones. Target centre x=268, y=490 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-14",
+    "slug": "vintage-silver-pendant-14",
+    "title": "Multicolour Stone Cross Pendant",
+    "x": 444,
+    "y": 508,
+    "subject": "long broad cross formed from assorted faceted purple red clear blue yellow and grey stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): long broad cross formed from assorted faceted purple red clear blue yellow and grey stones. Target centre x=444, y=508 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-15",
+    "slug": "vintage-silver-pendant-15",
+    "title": "Round Marcasite Disc Pendant",
+    "x": 749,
+    "y": 458,
+    "subject": "round dark silver disc densely studded with small marcasite-like accents",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): round dark silver disc densely studded with small marcasite-like accents. Target centre x=749, y=458 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-16",
+    "slug": "vintage-silver-pendant-16",
+    "title": "Dark Faceted Cushion Pendant",
+    "x": 82,
+    "y": 659,
+    "subject": "large dark brown faceted cushion stone in plain thick silver bezel",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large dark brown faceted cushion stone in plain thick silver bezel. Target centre x=82, y=659 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-17",
+    "slug": "vintage-silver-pendant-17",
+    "title": "Purple and Turquoise Halo Pendant",
+    "x": 214,
+    "y": 690,
+    "subject": "purple oval centre surrounded by alternating blue turquoise rectangles and dark accents",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): purple oval centre surrounded by alternating blue turquoise rectangles and dark accents. Target centre x=214, y=690 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-18",
+    "slug": "vintage-silver-pendant-18",
+    "title": "Silver Scrollwork Rectangle Pendant",
+    "x": 314,
+    "y": 661,
+    "subject": "rounded rectangular open silver scrollwork with tiny square centre stone",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): rounded rectangular open silver scrollwork with tiny square centre stone. Target centre x=314, y=661 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-19",
+    "slug": "vintage-silver-pendant-19",
+    "title": "Pink Centre Filigree Drop Pendant",
+    "x": 573,
+    "y": 624,
+    "subject": "ornate teardrop open silver filigree with small round pink centre",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): ornate teardrop open silver filigree with small round pink centre. Target centre x=573, y=624 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-20",
+    "slug": "vintage-silver-pendant-20",
+    "title": "Iridescent Butterfly Pendant",
+    "x": 716,
+    "y": 600,
+    "subject": "large butterfly with iridescent shell inlaid segmented wings and slender metal body",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large butterfly with iridescent shell inlaid segmented wings and slender metal body. Target centre x=716, y=600 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-21",
+    "slug": "vintage-silver-pendant-21",
+    "title": "Ornate Pink Scroll Pendant",
+    "x": 873,
+    "y": 598,
+    "subject": "small ornate curled silver teardrop with pink accents and open decorative loops",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small ornate curled silver teardrop with pink accents and open decorative loops. Target centre x=873, y=598 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-22",
+    "slug": "vintage-silver-pendant-22",
+    "title": "Pink Druzy Square Pendant",
+    "x": 97,
+    "y": 814,
+    "subject": "small textured sparkling pink square stone in simple silver corners and ornate bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small textured sparkling pink square stone in simple silver corners and ornate bail. Target centre x=97, y=814 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-23",
+    "slug": "vintage-silver-pendant-23",
+    "title": "Pink Green Crystal Point Pendant",
+    "x": 255,
+    "y": 840,
+    "subject": "long slender pointed crystal with pale pink top fading into green bottom and plain silver cap",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): long slender pointed crystal with pale pink top fading into green bottom and plain silver cap. Target centre x=255, y=840 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-24",
+    "slug": "vintage-silver-pendant-24",
+    "title": "Golden Oval Drop Pendant",
+    "x": 342,
+    "y": 835,
+    "subject": "small golden yellow oval faceted stone with simple prongs and bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small golden yellow oval faceted stone with simple prongs and bail. Target centre x=342, y=835 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-25",
+    "slug": "vintage-silver-pendant-25",
+    "title": "Smoky Butterfly Pendant",
+    "x": 435,
+    "y": 756,
+    "subject": "butterfly formed of four translucent smoky angular stones and small multicolour stones along body",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): butterfly formed of four translucent smoky angular stones and small multicolour stones along body. Target centre x=435, y=756 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-26",
+    "slug": "vintage-silver-pendant-26",
+    "title": "Pink Open Circle Pendant",
+    "x": 572,
+    "y": 752,
+    "subject": "open circular hoop lined in tiny pink stones with larger round pink drop at bottom",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): open circular hoop lined in tiny pink stones with larger round pink drop at bottom. Target centre x=572, y=752 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-27",
+    "slug": "vintage-silver-pendant-27",
+    "title": "Iridescent Round Medallion Pendant",
+    "x": 730,
+    "y": 795,
+    "subject": "large round iridescent shell disc with off-centre decorative small flower medallion",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large round iridescent shell disc with off-centre decorative small flower medallion. Target centre x=730, y=795 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-28",
+    "slug": "vintage-silver-pendant-28",
+    "title": "Pale Crystal Cross Pendant",
+    "x": 909,
+    "y": 794,
+    "subject": "broad cross with pale grey-pink rough rectangular stones and decorative metal central detail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): broad cross with pale grey-pink rough rectangular stones and decorative metal central detail. Target centre x=909, y=794 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-29",
+    "slug": "vintage-silver-pendant-29",
+    "title": "Three Stone Drop Pendant",
+    "x": 80,
+    "y": 986,
+    "subject": "vertical stack of three rounded rectangular dark brown-red stones in silver settings",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): vertical stack of three rounded rectangular dark brown-red stones in silver settings. Target centre x=80, y=986 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-30",
+    "slug": "vintage-silver-pendant-30",
+    "title": "Black Crystal Butterfly Pendant",
+    "x": 224,
+    "y": 980,
+    "subject": "black butterfly silhouette edged and studded with many clear round stones, asymmetric tilted orientation",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): black butterfly silhouette edged and studded with many clear round stones, asymmetric tilted orientation. Target centre x=224, y=980 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-31",
+    "slug": "vintage-silver-pendant-31",
+    "title": "Aqua Crystal Point Pendant",
+    "x": 355,
+    "y": 980,
+    "subject": "long blue-aqua hexagonal pointed crystal with plain silver cap",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): long blue-aqua hexagonal pointed crystal with plain silver cap. Target centre x=355, y=980 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-32",
+    "slug": "vintage-silver-pendant-32",
+    "title": "Grey Teardrop and Pearl Pendant",
+    "x": 435,
+    "y": 983,
+    "subject": "large faceted grey teardrop below round white pearl and small pink and purple side stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large faceted grey teardrop below round white pearl and small pink and purple side stones. Target centre x=435, y=983 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-33",
+    "slug": "vintage-silver-pendant-33",
+    "title": "Smoky Oval Solitaire Pendant",
+    "x": 563,
+    "y": 1006,
+    "subject": "dark smoky oval faceted stone held in four plain silver prongs",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): dark smoky oval faceted stone held in four plain silver prongs. Target centre x=563, y=1006 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-34",
+    "slug": "vintage-silver-pendant-34",
+    "title": "Turquoise Rectangle Pendant",
+    "x": 615,
+    "y": 889,
+    "subject": "small rectangular turquoise-coloured stone with dark matrix in plain silver setting",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small rectangular turquoise-coloured stone with dark matrix in plain silver setting. Target centre x=615, y=889 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-35",
+    "slug": "vintage-silver-pendant-35",
+    "title": "Yellow Teardrop Pendant",
+    "x": 700,
+    "y": 983,
+    "subject": "large translucent pale yellow teardrop stone in simple prongs",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large translucent pale yellow teardrop stone in simple prongs. Target centre x=700, y=983 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-36",
+    "slug": "vintage-silver-pendant-36",
+    "title": "Pale Pink Oval Solitaire Pendant",
+    "x": 790,
+    "y": 969,
+    "subject": "pale pink oval smooth stone with minimal prongs and plain silver bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): pale pink oval smooth stone with minimal prongs and plain silver bail. Target centre x=790, y=969 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-37",
+    "slug": "vintage-silver-pendant-37",
+    "title": "Golden Banded Round Pendant",
+    "x": 901,
+    "y": 985,
+    "subject": "round golden-brown banded stone with ornate silver rim and bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): round golden-brown banded stone with ornate silver rim and bail. Target centre x=901, y=985 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-38",
+    "slug": "vintage-silver-pendant-38",
+    "title": "Peach Carved Oval Pendant",
+    "x": 114,
+    "y": 1146,
+    "subject": "small peach-pink carved oval stone in scalloped silver bezel",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small peach-pink carved oval stone in scalloped silver bezel. Target centre x=114, y=1146 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-39",
+    "slug": "vintage-silver-pendant-39",
+    "title": "Geometric Mixed Stone Flower Pendant",
+    "x": 270,
+    "y": 1142,
+    "subject": "cluster flower of irregular geometric smoky grey pale green purple stones with small green accents",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): cluster flower of irregular geometric smoky grey pale green purple stones with small green accents. Target centre x=270, y=1142 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-40",
+    "slug": "vintage-silver-pendant-40",
+    "title": "Red Diamond Cluster Pendant",
+    "x": 428,
+    "y": 1148,
+    "subject": "diamond-shaped dark metal frame densely covered in small red round stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): diamond-shaped dark metal frame densely covered in small red round stones. Target centre x=428, y=1148 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-41",
+    "slug": "vintage-silver-pendant-41",
+    "title": "Green Banded Oval Pendant",
+    "x": 556,
+    "y": 1143,
+    "subject": "small smooth green oval with concentric lighter bands, simple silver rim",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small smooth green oval with concentric lighter bands, simple silver rim. Target centre x=556, y=1143 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-42",
+    "slug": "vintage-silver-pendant-42",
+    "title": "Grey Round Stone Pendant",
+    "x": 670,
+    "y": 1156,
+    "subject": "round grey translucent stone with patterned silver bezel and bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): round grey translucent stone with patterned silver bezel and bail. Target centre x=670, y=1156 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-43",
+    "slug": "vintage-silver-pendant-43",
+    "title": "Golden Banded Oval Pendant",
+    "x": 814,
+    "y": 1124,
+    "subject": "narrow oval gold-brown striped stone held in simple silver prongs",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): narrow oval gold-brown striped stone held in simple silver prongs. Target centre x=814, y=1124 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-44",
+    "slug": "vintage-silver-pendant-44",
+    "title": "Smoky Grey Oval Pendant",
+    "x": 905,
+    "y": 1110,
+    "subject": "smooth smoky grey oval stone in minimal silver bezel",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): smooth smoky grey oval stone in minimal silver bezel. Target centre x=905, y=1110 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-45",
+    "slug": "vintage-silver-pendant-45",
+    "title": "Bright Blue Oval Pendant",
+    "x": 89,
+    "y": 1298,
+    "subject": "bright blue faceted oval stone with simple silver prongs and bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): bright blue faceted oval stone with simple silver prongs and bail. Target centre x=89, y=1298 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-46",
+    "slug": "vintage-silver-pendant-46",
+    "title": "Pale Yellow Square Pendant",
+    "x": 192,
+    "y": 1290,
+    "subject": "small pale yellow transparent square stone in simple silver frame",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small pale yellow transparent square stone in simple silver frame. Target centre x=192, y=1290 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-47",
+    "slug": "vintage-silver-pendant-47",
+    "title": "Red Stone Fan Pendant",
+    "x": 259,
+    "y": 1292,
+    "subject": "elongated silver fan-shaped pendant with vertical ribs and dark red stones down centre",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): elongated silver fan-shaped pendant with vertical ribs and dark red stones down centre. Target centre x=259, y=1292 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-48",
+    "slug": "vintage-silver-pendant-48",
+    "title": "Turquoise Curved Feather Pendant",
+    "x": 340,
+    "y": 1269,
+    "subject": "slender curved silver feather with turquoise blue inlay stripe",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): slender curved silver feather with turquoise blue inlay stripe. Target centre x=340, y=1269 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-49",
+    "slug": "vintage-silver-pendant-49",
+    "title": "Silver Crystal Loop Pendant",
+    "x": 412,
+    "y": 1277,
+    "subject": "open looping ribbon of silver studded with tiny clear stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): open looping ribbon of silver studded with tiny clear stones. Target centre x=412, y=1277 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-50",
+    "slug": "vintage-silver-pendant-50",
+    "title": "Pink Teardrop Solitaire Pendant",
+    "x": 481,
+    "y": 1300,
+    "subject": "bright pink smooth teardrop stone with simple silver bezel",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): bright pink smooth teardrop stone with simple silver bezel. Target centre x=481, y=1300 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-51",
+    "slug": "vintage-silver-pendant-51",
+    "title": "Blue Oval Matrix Pendant",
+    "x": 558,
+    "y": 1295,
+    "subject": "blue oval stone with darker matrix in decorative silver rim",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): blue oval stone with darker matrix in decorative silver rim. Target centre x=558, y=1295 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-52",
+    "slug": "vintage-silver-pendant-52",
+    "title": "Amber Oval Cabochon Pendant",
+    "x": 626,
+    "y": 1297,
+    "subject": "smooth translucent orange oval stone in plain silver rim",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): smooth translucent orange oval stone in plain silver rim. Target centre x=626, y=1297 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-53",
+    "slug": "vintage-silver-pendant-53",
+    "title": "Silver Fish Pendant",
+    "x": 684,
+    "y": 1271,
+    "subject": "small vertical silver fish pendant covered in rows of bright accents with little tail fins",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small vertical silver fish pendant covered in rows of bright accents with little tail fins. Target centre x=684, y=1271 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-54",
+    "slug": "vintage-silver-pendant-54",
+    "title": "Pink Oval Floral Halo Pendant",
+    "x": 763,
+    "y": 1295,
+    "subject": "small pink oval centre with halo of round warm-toned and green stones",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): small pink oval centre with halo of round warm-toned and green stones. Target centre x=763, y=1295 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-55",
+    "slug": "vintage-silver-pendant-55",
+    "title": "Clear Rectangle Pendant Pendant",
+    "x": 847,
+    "y": 1283,
+    "subject": "large clear faceted rectangular stone beneath tall ornate open silver bail",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): large clear faceted rectangular stone beneath tall ornate open silver bail. Target centre x=847, y=1283 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  },
+  {
+    "id": "lh-silver-pendant-56",
+    "slug": "vintage-silver-pendant-56",
+    "title": "Openwork Geometric Flower Pendant",
+    "x": 934,
+    "y": 1254,
+    "subject": "silver cutout geometric stepped frame surrounding a small purple floral central motif",
+    "status": "listed",
+    "prompt": "Use case: product-mockup. Create ONE separate square catalogue photo of exactly this pendant in the reference shop image (977x1350): silver cutout geometric stepped frame surrounding a small purple floral central motif. Target centre x=934, y=1254 from upper left. Use location to distinguish neighbours. Preserve the original silhouette, stone colours/shapes/arrangement, metalwork and proportions. Owner identifies these as pendants: show entire pendant with bail, no ring band. Remove all neighbouring items, boxes and shop background. Front-facing whole product centred on seamless warm ivory, soft studio lighting, natural shadow, realistic silver-toned metal. Include all edges and bail with 12% safe margins. Restore only tiny obscured edge portions, do not redesign or add ornamentation. No chain, no props, no text, no collage."
+  }
+]
