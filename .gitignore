@@ -1,6 +1,7 @@
 cat << 'EOF' > .gitignore
 # Dependencies
 node_modules/
+public/products/
 
 # Production build outputs
 dist/
