@@ -1,0 +1,205 @@
+// Descriptive names; metal purity and gemstone identities await store confirmation.
+export const jewelleryProducts = [
+  {
+    id: 'lh-jewellery-1',
+    title: 'Multicolour Chandelier Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Open teardrop frames with green faceted drops, pink accents and deep blue stones.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-01.png',
+    originalImage: '/products/jewellery-01-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-2',
+    title: 'Dark Teardrop Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Dark polished stones arranged in a long drop, framed by intricate dotted metalwork.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-02.png',
+    originalImage: '/products/jewellery-02-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-3',
+    title: 'Amber Orange Drop Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Warm orange oval and teardrop stones framed by textured decorative metalwork.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-03.png',
+    originalImage: '/products/jewellery-03-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-4',
+    title: 'Red Stone Ornate Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'An ornate angular design with deep red stones and detailed open metalwork.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-04.png',
+    originalImage: '/products/jewellery-04-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-5',
+    title: 'Amber Bead Drop Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Round amber-coloured beads suspended below slender, patterned teardrop frames.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-05.png',
+    originalImage: '/products/jewellery-05-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-6',
+    title: 'Turquoise Tone Orb Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Rounded textured drops with turquoise-coloured and green accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-06.png',
+    originalImage: '/products/jewellery-06-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-7',
+    title: 'Green Stone Leaf Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Long leaf-shaped metalwork curling around deep green stones.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-07.png',
+    originalImage: '/products/jewellery-07-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-8',
+    title: 'Green Bead Drop Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Polished green beads suspended below delicate open teardrop metalwork.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-08.png',
+    originalImage: '/products/jewellery-08-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-9',
+    title: 'Blue Halo Pearl Style Set',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Matching earrings and ring with luminous pearl-style centres and blue circular accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-09.png',
+    originalImage: '/products/jewellery-09-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-10',
+    title: 'Pearl Style Scroll Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Pearl-style teardrop centres surrounded by scrolling metalwork and beaded edges.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-10.png',
+    originalImage: '/products/jewellery-10-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-11',
+    title: 'Triple Green Stone Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description: 'Three green stones arranged along gently curving, textured drops.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-11.png',
+    originalImage: '/products/jewellery-11-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-12',
+    title: 'Pearl Style Sunburst Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Round pearl-style centres framed by scrolls and a sunburst of decorative metalwork.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-12.png',
+    originalImage: '/products/jewellery-12-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-13',
+    title: 'Pink Halo Pearl Style Set',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Matching earrings and ring with pearl-style centres surrounded by pink circular accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-13.png',
+    originalImage: '/products/jewellery-13-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-14',
+    title: 'Blue Halo Pearl Style Earrings',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Pearl-style centres framed by blue circular accents, suspended from simple hooks.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-14.png',
+    originalImage: '/products/jewellery-14-original.jpeg',
+  },
+  {
+    id: 'lh-jewellery-15',
+    title: 'Floral Pearl Style Set',
+    category: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork and decorative stones; composition to be confirmed by the store.',
+    description:
+      'Matching earrings and ring featuring sculpted flower petals and pearl-style centres.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/jewellery-15.png',
+    originalImage: '/products/jewellery-15-original.jpeg',
+  },
+];

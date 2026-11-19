@@ -1,0 +1,857 @@
+export const pendantProducts = [
+  {
+    id: 'lh-pendant-01',
+    title: 'Pale Pink Oval Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small pale pink oval stone in an ornate dark silver-toned border at the top left.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-01.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-02',
+    title: 'Dark Oval Cluster Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Small dark oval domed face densely set with pale reflective accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-02.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-03',
+    title: 'Long Feather Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Long pointed overlapping feather or leaf design densely studded with dark marcasite-like accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-03.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-04',
+    title: 'Turquoise Swirl Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small sweeping S-shaped silver-toned swirl with bright turquoise-coloured round accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-04.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-05',
+    title: 'Multicolour Circle Cluster Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Round cluster of multiple oval and round red, dark and muted green stones.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-05.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-06',
+    title: 'Orange Rough Stone Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Irregular rough orange-red stone with a small dark metal cap and hanging loop.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-06.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-07',
+    title: 'Black Leaf Drop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Small black teardrop leaf-shaped stone edged with pointed silver-toned prongs.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-07.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-08',
+    title: 'Black Filigree Shield Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Very large ornate scalloped silver-toned filigree shield with a central faceted black oval.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-08.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-09',
+    title: 'Turquoise Filigree Teardrop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large ornate teardrop filigree frame surrounding a bright turquoise-coloured smooth teardrop.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-09.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-10',
+    title: 'Blue Green Rectangular Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Simple rectangular blue-green iridescent stone with rounded corners and a broad plain silver-toned bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-10.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-11',
+    title: 'Dark Filigree Teardrop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large ornate teardrop filigree pendant with a dark almost black smooth teardrop centre.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-11.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-12',
+    title: 'Engraved Round Medallion Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Round aged bronze-toned engraved coin-like medallion with a plain bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-12.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-13',
+    title: 'Red and Green Mandala Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large circular intricate metal mandala surrounded by alternating small red and pale green stones.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-13.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-14',
+    title: 'Multicolour Floral Oval Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large oval dark filigree frame with tiny red and green floral decorative elements.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-14.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-15',
+    title: 'Turquoise Rectangle Frame Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Bright turquoise-coloured rounded rectangular centre surrounded by a fine ornate dotted dark metal frame.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-15.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-16',
+    title: 'Om Oval Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Oval metal pendant with an openwork Om symbol in its centre and a patterned oval rim.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-16.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-17',
+    title: 'Pink Stone Square Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small dark ornate square with a round pink centre and small pink decorative accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-17.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-18',
+    title: 'Green Stone Square Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Small ornate square metal frame with a green oval central stone.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-18.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-19',
+    title: 'Pink Starburst Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Compact elongated starburst or floral spray of vivid pink marquise-shaped stones.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-19.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-20',
+    title: 'Turquoise Gecko Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Horizontal curled-tail gecko silhouette with turquoise-coloured dotted accents around its body.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-20.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-21',
+    title: 'Purple Frog Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Splayed-limb frog silhouette with an oval purple centre and dotted dark metal surround.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-21.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-22',
+    title: 'Black Openwork Round Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Round openwork wheel-like pendant with a dense dark centre and black accents around the rim.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-22.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-23',
+    title: 'Slender Owl Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Slender long owl with detailed textured body, two round eyes and small orange-red accents at its feet.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-23.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-24',
+    title: 'Red Owl Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Small squat red owl with round eyes, diamond lattice body and tiny feet.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-24.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-25',
+    title: 'Paired Animal Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Two adjoining slender animal silhouettes with raised heads, pointed ears and curved tails, detailed dotted metal surfaces.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-25.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-26',
+    title: 'Peacock Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large peacock profile with raised curved neck, crest and densely textured sweeping tail, dark reflective accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-26.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-27',
+    title: 'Small Flower Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small flower with rounded pale translucent petals around a tiny central bright stone, at far left.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-27.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-28',
+    title: 'Long White Inlay Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Long narrow curved silver-toned pendant with elongated glossy white inlay and pointed dotted dark lower tip.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-28.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-29',
+    title: 'Green Openwork Teardrop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Small openwork teardrop frame with a smooth pale green oval centre.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-29.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-30',
+    title: 'Pink Sunflower Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Round dense dotted metal centre surrounded by a ring of pointed vivid pink petals.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-30.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-31',
+    title: 'Six Petal Star Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large six-lobed flower or star silhouette with open geometric star lines and dotted metal panels.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-31.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-32',
+    title: 'Green and Black Oval Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Oval lattice-centred dark pendant surrounded by small muted green stones and black accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-32.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-33',
+    title: 'Turquoise Floral Scroll Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Ornate elongated floral scroll motif with a round turquoise-coloured centre and dark dotted metalwork.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-33.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-34',
+    title: 'Dark Pear Drop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Long polished dark purple pear-shaped stone in a scalloped dotted metal frame.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-34.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-35',
+    title: 'Large Owl Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Large stylised owl with pointed ears, red eyes, deep dark rounded belly stone, spread patterned wings and a perch.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-35.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-36',
+    title: 'Pink Oval Mosaic Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Oval pendant densely filled with small pink stones in an irregular mosaic.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-36.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-37',
+    title: 'Small Round Rosette Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small pale silver-toned circular scalloped rosette with a delicate openwork flower centre.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-37.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-38',
+    title: 'Multicolour Floral Drop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Ornate elongated floral drop with pink and green stone clusters and decorative metal curls.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-38.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-39',
+    title: 'Red and Green Round Cluster Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Round radial cluster of red and muted green small stones with black openwork gaps.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-39.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-40',
+    title: 'Green Oval Open Frame Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small vertical green oval centre in a narrow open patterned silver-toned bezel and long plain bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-40.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-41',
+    title: 'Small Multicolour Teardrop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small teardrop-shaped cluster of red, green and pale stones with a short broad bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-41.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-42',
+    title: 'Pastel Cluster Cross Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Slender cross-like arrangement of pale green pink and white rounded accents on silver-toned metal.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-42.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-43',
+    title: 'Round Pearl Floral Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Round pendant with a white pearl-like centre, dotted rim and decorative floral flourish above.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-43.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-44',
+    title: 'Oval Yin Yang Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Elongated oval frame containing an open yin-yang-like curling dark dotted motif.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-44.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-45',
+    title: 'Square Pearl Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'White round pearl-like centre in a square geometric dotted metal frame with a diagonal ornate bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-45.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-46',
+    title: 'Double Oval Openwork Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small vertical dark ornamental pendant with two open oval holes and scalloped sides.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-46.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-47',
+    title: 'Small Turquoise Flower Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small round dark floral cluster with tiny turquoise-coloured accents and a textured bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-47.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-48',
+    title: 'Multicolour Grid Cross Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Geometric open grid cross pendant with tiny square stones in red orange white yellow and dark colours.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-48.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-49',
+    title: 'Brown Leaf Floral Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Long pointed deep brown leaf-shaped pendant with a small raised flower across its centre and ornate bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-49.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-50',
+    title: 'Turquoise Oval Cluster Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Vertical dark oval cluster with small turquoise-blue flower-like accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-50.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-51',
+    title: 'Green Curved Drop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Tiny curved silver-toned drop with a small pale green stone and pointed curling end.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-51.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-52',
+    title: 'Dark Curved Drop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Tiny curved silver-toned pendant with a dark blue-black accent and tapered curling end.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-52.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-53',
+    title: 'Pearl Scalloped Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Round white pearl-like centre with scalloped silver-toned petal border and curved bail at bottom far left.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-53.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-54',
+    title: 'Pale Green Floral Halo Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small pale translucent oval centre surrounded by muted green round accents in a floral halo.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-54.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-55',
+    title: 'Turquoise Hexagonal Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small turquoise-coloured round centre inside a dark ornate roughly hexagonal frame.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-55.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-56',
+    title: 'Double Purple Oval Drop Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Two linked purple oval stones, small upper oval and larger lower oval, each with pale dotted halos.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-56.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-57',
+    title: 'Warm Tone Round Floral Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small circular warm silver-gold toned pendant with a red-brown centre and pale green decorative accents.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-57.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-58',
+    title: 'Colourful Square Grid Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Small open geometric cross grid with square red orange yellow white and dark stones near bottom centre.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-58.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-59',
+    title: 'Black Flower Long Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Long narrow textured leaf-like metal upper section ending in a small black flower.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-59.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-60',
+    title: 'Green Leaf Frame Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Vertical green oval centre enclosed by a dark leafy scalloped frame with a twisting bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-60.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-61',
+    title: 'Floral Swirl Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description: 'Open oval silver-toned swirl with a little red and green floral cluster above.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-61.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+  {
+    id: 'lh-pendant-62',
+    title: 'Multicolour Ornate Cross Pendant',
+    category: 'Marcasite Vintage Pendants',
+    materials:
+      'Marcasite-style decorative metalwork; stone identities and metal composition to be confirmed by the store.',
+    description:
+      'Short broad ornate cross with red dark and pale green rounded stones, scalloped frame and bail.',
+    priceINR: null,
+    origin: 'Ladakh Heritage · Varkala',
+    badge: 'In the Store',
+    image: '/products/marcasite-pendant-62.png',
+    originalImage: '/products/marcasite-pendants-original.jpeg',
+  },
+];

@@ -1,0 +1,122 @@
+export const necklaceProducts = [
+  {
+    id: 'lh-vintage-necklace-1',
+    title: 'Fish Pendant Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Ornate large fish-shaped silver pendant with round patterned head, filigree body and forked tail, double woven chain, sculpted silver beads.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-1.png',
+    originalImage: '/products/vintage-necklaces-original-1.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-2',
+    title: 'Figural Panel Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Rectangular engraved figural silver panel with small projections along top, two oval side beads, dark wrapped cord with tan upper cord.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-2.png',
+    originalImage: '/products/vintage-necklaces-original-1.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-3',
+    title: 'Silver Drop Fringe Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Dark wrapped cord choker with repeated silver decorative attachments and smooth oval teardrop fringe.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-3.png',
+    originalImage: '/products/vintage-necklaces-original-1.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-4',
+    title: 'Silver Bead Woven Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Tan woven cord collar with ornate silver wrapped sections and dangling spherical silver beads.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-4.png',
+    originalImage: '/products/vintage-necklaces-original-1.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-5',
+    title: 'Heart Pendant Chain Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Long silver chain with large engraved heart-shaped pendant and dangling open chain fringe ending in leaf-shaped charms.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-5.png',
+    originalImage: '/products/vintage-necklaces-original-2.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-6',
+    title: 'Traditional Silver Fringe Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Wide fan-shaped bib of engraved narrow silver bars with tapered dangling drops and two broad engraved end plates.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-6.png',
+    originalImage: '/products/vintage-necklaces-original-2.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-7',
+    title: 'Pearl Tone Teardrop Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Row of large pointed pear-shaped white iridescent shell-like panels interspersed with small pale purple round stones and small square stones above.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-7.png',
+    originalImage: '/products/vintage-necklaces-original-2.jpeg',
+  },
+  {
+    id: 'lh-vintage-necklace-8',
+    title: 'Floral Bead Cord Necklace',
+    category: 'Vintage Silver Necklaces',
+    parentCategory: 'Silver Jewellery',
+    materials:
+      'Silver-toned metalwork; metal purity and stone identities to be confirmed by the store.',
+    description:
+      'Long dark wrapped cord necklace with repeated ribbed round floral silver beads attached by short silver wrapped loops.',
+    priceINR: null,
+    origin: 'Ladakh Heritage \u00b7 Varkala',
+    badge: 'In the Store',
+    image: '/products/vintage-silver-necklace-8.png',
+    originalImage: '/products/vintage-necklaces-original-2.jpeg',
+  },
+];
