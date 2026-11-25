@@ -1,28 +1,21 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import { fetchCatalogue } from '../services/catalogue.js';
-
+import { fetchCategories } from '../services/catalogue.js';
+import { API_BASE_URL } from '../config/api.js';
 const CatalogueContext = createContext(null);
-const baseUrl = import.meta.env.VITE_CATALOGUE_API_URL?.trim();
-
 export function CatalogueProvider({ children }) {
-  const [catalogue, setCatalogue] = useState({
-    products: [],
-    categories: [],
-    status: baseUrl ? 'loading' : 'unconfigured',
-  });
+  const [catalogue, setCatalogue] = useState({ categories: [], status: 'loading' });
   const [attempt, setAttempt] = useState(0);
   useEffect(() => {
-    if (!baseUrl) return;
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 15000);
     let active = true;
-    setCatalogue({ products: [], categories: [], status: 'loading' });
-    fetchCatalogue(baseUrl, controller.signal)
-      .then((data) => {
-        if (active) setCatalogue({ ...data, status: 'ready' });
+    setCatalogue({ categories: [], status: 'loading' });
+    fetchCategories(API_BASE_URL, controller.signal)
+      .then((categories) => {
+        if (active) setCatalogue({ categories, status: 'ready' });
       })
       .catch(() => {
-        if (active) setCatalogue({ products: [], categories: [], status: 'error' });
+        if (active) setCatalogue({ categories: [], status: 'error' });
       })
       .finally(() => clearTimeout(timeout));
     return () => {
@@ -39,7 +32,6 @@ export function CatalogueProvider({ children }) {
     </CatalogueContext.Provider>
   );
 }
-
 export function useCatalogue() {
   return useContext(CatalogueContext);
 }

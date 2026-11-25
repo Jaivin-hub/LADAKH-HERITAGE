@@ -1,45 +1,50 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchCatalogue } from '../src/services/catalogue.js';
-
-test('loads both API collections and preserves server image URLs', async () => {
-  const calls = [];
-  const result = await fetchCatalogue('https://example.test/api/', undefined, async (url) => {
-    calls.push(url);
-    return {
+import { fetchCategories, fetchProducts } from '../src/services/catalogue.js';
+test('categories load from server without static fallback', async () => {
+  assert.deepEqual(
+    await fetchCategories('/api', undefined, async () => ({
       ok: true,
-      json: async () =>
-        url.endsWith('/products')
-          ? {
-              products: [
-                {
-                  id: 'new',
-                  title: 'New pendant',
-                  category: 'Pendants',
-                  image: 'https://example.test/new.jpg',
-                },
-              ],
-            }
-          : { categories: [{ title: 'Pendants', image: 'https://example.test/category.jpg' }] },
-    };
-  });
-  assert.equal(calls.length, 2);
-  assert.equal(result.products[0].image, 'https://example.test/new.jpg');
-  assert.equal(result.products[0].priceINR, null);
-  assert.equal(result.categories[0].title, 'Pendants');
+      json: async () => ({ categories: [] }),
+    })),
+    [],
+  );
 });
-
-test('empty API catalogue stays empty instead of using archived products', async () => {
-  const result = await fetchCatalogue('/api', undefined, async () => ({
-    ok: true,
-    json: async () => ({ products: [], categories: [] }),
-  }));
-  assert.deepEqual(result, { products: [], categories: [] });
+test('product filtering and pagination are sent to server', async () => {
+  let requested;
+  const data = {
+    products: [{ id: '1', title: 'Pendant', category: 'Silver' }],
+    pagination: { page: 2, limit: 8, total: 9, totalPages: 2 },
+  };
+  const result = await fetchProducts(
+    '/api/',
+    { category: 'silver', page: 2, limit: 8, search: 'stone & pearl', sort: 'price-low' },
+    undefined,
+    async (url) => {
+      requested = new URL(url, 'https://example.test');
+      return { ok: true, json: async () => data };
+    },
+  );
+  assert.equal(requested.pathname, '/api/products');
+  assert.equal(requested.searchParams.get('category'), 'silver');
+  assert.equal(requested.searchParams.get('search'), 'stone & pearl');
+  assert.equal(requested.searchParams.get('page'), '2');
+  assert.equal(result.pagination.total, 9);
 });
-
-test('rejects failed or malformed API responses', async () => {
-  await assert.rejects(fetchCatalogue('/api', undefined, async () => ({ ok: false })));
+test('malformed responses and failed API calls reject', async () => {
   await assert.rejects(
-    fetchCatalogue('/api', undefined, async () => ({ ok: true, json: async () => ({}) })),
+    fetchCategories('/api', undefined, async () => ({ ok: false, status: 503 })),
+  );
+  await assert.rejects(
+    fetchCategories('/api', undefined, async () => ({
+      ok: true,
+      json: async () => ({ categories: [{}] }),
+    })),
+  );
+  await assert.rejects(
+    fetchProducts('/api', { page: 1, limit: 8, sort: 'featured' }, undefined, async () => ({
+      ok: true,
+      json: async () => ({ products: [] }),
+    })),
   );
 });

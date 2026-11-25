@@ -28,7 +28,9 @@ export default function ProductsPage() {
     activeModalProduct,
     setActiveModalProduct,
     handleOpenProductModal,
-    filteredProducts,
+    productCount,
+    productsStatus,
+    retryProducts,
     visibleProducts,
     productsPerPage,
     totalPages,
@@ -75,7 +77,7 @@ export default function ProductsPage() {
             setSearchQuery={setSearchQuery}
             sortBy={sortBy}
             setSortBy={setSortBy}
-            productCount={filteredProducts.length}
+            productCount={productCount}
           />
 
           {/* Showcase Section Heading */}
@@ -108,7 +110,9 @@ export default function ProductsPage() {
           )}
 
           {/* Products Grid */}
-          {filteredProducts.length > 0 ? (
+          {productsStatus !== 'ready' ? (
+            <CatalogueStatus status={productsStatus} retry={retryProducts} />
+          ) : productCount > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {visibleProducts.map((product) => (
                 <ProductCard key={product.id} product={product} onOpen={handleOpenProductModal} />
@@ -140,11 +144,11 @@ export default function ProductsPage() {
             </div>
           )}
 
-          {filteredProducts.length > 0 && (
+          {productCount > 0 && (
             <ProductPagination
               safePage={safePage}
               productsPerPage={productsPerPage}
-              productCount={filteredProducts.length}
+              productCount={productCount}
               totalPages={totalPages}
               goToProductPage={goToProductPage}
             />

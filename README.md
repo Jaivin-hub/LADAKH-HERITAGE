@@ -2,7 +2,7 @@
 
 A responsive boutique showcase built with React 18, Vite 6, React Router 6, and Tailwind CSS 4.
 
-The site includes a home page, category collections, a searchable product catalogue with sorting and pagination, product galleries with zoom, and store contact links. The product catalogue and category cards now load from a configurable server API. Until that server is connected, they display a preparation message. Main-page imagery remains local; previous product assets are preserved. See [the API integration contract](docs/CATALOGUE-API.md).
+The site includes a home page, category collections, a searchable product catalogue with sorting and pagination, product galleries with zoom, and store contact links. The product catalogue and category cards now load from a configurable server API. The sibling `../server` supplies the MongoDB-backed APIs; run it alongside Vite for local development. Main-page imagery remains local; previous product assets are preserved. See [the API integration contract](docs/CATALOGUE-API.md).
 
 ## Getting started
 
@@ -17,16 +17,16 @@ Open the URL printed by Vite. To use the original preview port, run `npm run dev
 
 ## Commands
 
-| Command                      | Purpose                                              |
-| ---------------------------- | ---------------------------------------------------- |
-| `npm run dev`                | Start local development with live reload             |
-| `npm run build`              | Generate the static website in `dist/`               |
-| `npm run preview`            | Preview the production build locally                 |
-| `npm test`                   | Check category resolution, search and sorting        |
-| `npm run validate:catalogue` | Check product IDs, categories and image files        |
-| `npm run check`              | Run tests, catalogue validation and production build |
-| `npm run format`             | Format source, scripts, tests and documentation      |
-| `npm run format:check`       | Check formatting without changing files              |
+| Command                      | Purpose                                         |
+| ---------------------------- | ----------------------------------------------- |
+| `npm run dev`                | Start local development with live reload        |
+| `npm run build`              | Generate the static website in `dist/`          |
+| `npm run preview`            | Preview the production build locally            |
+| `npm test`                   | Check category resolution, search and sorting   |
+| `npm run validate:catalogue` | Check product IDs, categories and image files   |
+| `npm run check`              | Run frontend tests and production build         |
+| `npm run format`             | Format source, scripts, tests and documentation |
+| `npm run format:check`       | Check formatting without changing files         |
 
 ## Project structure
 

@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import AdminPortal from './components/admin/AdminPortal.jsx';
 import Header from './components/layout/Header.jsx';
 import Footer from './components/layout/Footer.jsx';
 import HomePage from './pages/HomePage.jsx';
@@ -9,6 +10,9 @@ export default function App() {
   const location = useLocation();
   const isProductsPage = location.pathname.replace(/\/$/, '') === '/products';
   usePageNavigation(location, isProductsPage);
+
+  if (location.pathname === '/admin' || location.pathname.startsWith('/admin/'))
+    return <AdminPortal />;
 
   return (
     <div className="overflow-x-clip bg-paper text-ink min-h-screen">

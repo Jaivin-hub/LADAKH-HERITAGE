@@ -1,48 +1,23 @@
 # Dynamic catalogue integration
 
-The frontend is ready for a public read-only catalogue API. The server and its database are not implemented yet. No local products or category images are used as a fallback. The home hero, story and other main-page imagery remain local.
+The sibling `../server` project implements MongoDB-backed read-only APIs. See its README and `examples/` for manual category/product entry and images.
 
-Copy `.env.example` to `.env.local`, set `VITE_CATALOGUE_API_URL` to the server's base URL (for example `https://api.example.com/api`), and restart Vite or rebuild for deployment. Leave it blank until the server is ready. Vite variables are public: never put credentials here. A separate-origin API must allow the website origin through CORS.
+## Development
 
-## Endpoints
+Run the server on port 4000 with `MONGODB_URI` in its `.env`. Run this frontend with `npm run dev` on port 5174. Vite proxies `/api` to `http://127.0.0.1:4000`. `VITE_CATALOGUE_API_URL` defaults to `/api`; it can be overridden with a full server API URL. Restart Vite after changing environment variables.
 
-`GET /products` returns `{ "products": [...] }`.
+## Data flow
 
-Each product uses the existing display fields:
+- `CatalogueProvider` fetches `GET /api/categories` for collection cards, navigation and subcategories.
+- `useProductCatalogue` fetches `GET /api/products?category=SLUG&search=TEXT&sort=featured&page=1&limit=8`. Search is debounced, old requests are cancelled, and stale responses cannot replace newer results.
+- Category, sorting and search changes reset pagination. Product counts and pages come from the API, not local filtering.
+- Category cards display server-provided image URLs. Product cards and modal galleries use the API's product image URLs.
+- The home hero/story images remain local. Old catalogue data stays archived and is never a fallback.
 
-```json
-{
-  "id": "pendant-1",
-  "title": "Silver Pendant",
-  "category": "Vintage Silver Pendants",
-  "parentCategory": "Silver Jewellery",
-  "image": "https://media.example.com/pendant-1.jpg",
-  "images": ["https://media.example.com/pendant-1.jpg"],
-  "description": "Product description",
-  "materials": "Silver",
-  "origin": "Ladakh Heritage · Varkala",
-  "priceINR": null,
-  "badge": "In the store"
-}
-```
+The server returns display category titles plus stable category slugs. Existing title-based URLs and legacy silver subcategory links still work. Parent categories include their descendants. Loading, empty, retry and error states remain supported.
 
-IDs must be unique. Supply a product image URL and optional gallery URLs. `priceINR` is a number or null for price on request. Optional `originalImage` retains the original-photo link and existing AI-styling disclosure; omit it for ordinary photography.
+## Deployment
 
-`GET /categories` returns `{ "categories": [...] }`:
+Set `VITE_CATALOGUE_API_URL` to the deployed HTTPS API base (ending in `/api`) before building, or configure the website host to proxy `/api`. Configure the website origin in the server's `CORS_ORIGINS`. Set server `PUBLIC_BASE_URL` for uploaded image URLs. MongoDB credentials belong only in server environment variables.
 
-```json
-{
-  "title": "Vintage Silver Pendants",
-  "parentCategory": "Silver Jewellery",
-  "image": "https://media.example.com/pendants.jpg",
-  "text": "Discover our vintage silver pendants."
-}
-```
-
-Category titles must be unique and match product category values. Top-level categories omit `parentCategory`. Child categories appear under their parent. Image URLs should be absolute HTTPS URLs; root-relative URLs resolve against the website origin. The server controls ordering. Existing legacy silver subcategory URLs still resolve.
-
-Both endpoints return complete arrays; search, sorting and pagination remain client-side for now. Server-side pagination will require a separate API/UI change. Requests have a 15-second timeout, cancellation on unmount, and a retry state. Errors never reveal old products. An empty or unconfigured catalogue shows an intentional preparation message.
-
-## Preserved assets
-
-`public/products/`, `public/categories/`, and the old `src/data/products/` records are preserved for migration. The archived catalogue validator continues checking these files; they are not the active catalogue. `src/data/collections.js` is retained for migration and legacy URL compatibility. Do not delete the old images during backend integration.
+`npm run check` runs frontend tests and a production build. `npm run validate:catalogue` is an optional historical asset audit and requires the deliberately removed old product images; it is not part of the dynamic frontend build.

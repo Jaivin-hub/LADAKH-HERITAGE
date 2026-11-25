@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test": "node --test",
     "validate:catalogue": "node scripts/validate-catalogue.mjs",
-    "check": "npm test && npm run validate:catalogue && npm run build",
+    "check": "npm test && npm run build",
     "format": "prettier --write src scripts tests README.md docs/HANDOFF.md index.html vite.config.js package.json .prettierrc.json",
     "format:check": "prettier --check src scripts tests README.md docs/HANDOFF.md index.html vite.config.js package.json .prettierrc.json"
   },
