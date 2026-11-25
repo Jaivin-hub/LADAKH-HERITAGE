@@ -1,3 +1,4 @@
+import { readApiResponse } from './response.js';
 import { API_BASE_URL } from '../config/api.js';
 export async function adminRequest(resource, data, signal) {
   const response = await fetch(`${API_BASE_URL.replace(/\/$/, '')}/admin/${resource}`, {
@@ -7,8 +8,7 @@ export async function adminRequest(resource, data, signal) {
       ? { headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }
       : {}),
   });
-  const body = await response.json();
-  if (!response.ok) throw new Error(body.error || 'Unable to connect to the admin service.');
+  const body = await readApiResponse(response);
   return body;
 }
 
@@ -19,8 +19,7 @@ export async function uploadAdminImages(files) {
     method: 'POST',
     body: data,
   });
-  const body = await response.json();
-  if (!response.ok) throw new Error(body.error || 'Upload failed. Please try again.');
+  const body = await readApiResponse(response);
   return body.images;
 }
 

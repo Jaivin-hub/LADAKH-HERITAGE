@@ -1,8 +1,8 @@
+import { readApiResponse } from './response.js';
 /** Read-only API client. Never falls back to the archived local catalogue. */
 async function read(baseUrl, resource, signal, fetcher) {
   const response = await fetcher(`${baseUrl.replace(/\/$/, '')}/${resource}`, { signal });
-  if (!response.ok) throw new Error(`Catalogue request failed (${response.status})`);
-  return response.json();
+  return readApiResponse(response);
 }
 export async function fetchCategories(baseUrl, signal, fetcher = fetch) {
   const body = await read(baseUrl, 'categories', signal, fetcher);
