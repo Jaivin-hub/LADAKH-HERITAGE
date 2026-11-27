@@ -1,3 +1,4 @@
+import { resolveMedia } from './media.js';
 import { readApiResponse } from './response.js';
 /** Read-only API client. Never falls back to the archived local catalogue. */
 async function read(baseUrl, resource, signal, fetcher) {
@@ -13,7 +14,7 @@ export async function fetchCategories(baseUrl, signal, fetcher = fetch) {
     )
   )
     throw new Error('Invalid categories response');
-  return body.categories;
+  return body.categories.map(item => resolveMedia(item, baseUrl));
 }
 export async function fetchProducts(baseUrl, filters, signal, fetcher = fetch) {
   const params = new URLSearchParams({
@@ -41,5 +42,5 @@ export async function fetchProducts(baseUrl, filters, signal, fetcher = fetch) {
     p.total < 0
   )
     throw new Error('Invalid pagination response');
-  return body;
+  return { ...body, products: body.products.map(item => resolveMedia(item, baseUrl)) };
 }

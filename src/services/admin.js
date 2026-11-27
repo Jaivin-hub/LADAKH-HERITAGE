@@ -1,3 +1,4 @@
+import { mediaUrl } from './media.js';
 import { readApiResponse } from './response.js';
 import { API_BASE_URL } from '../config/api.js';
 export async function adminRequest(resource, data, signal) {
@@ -24,6 +25,5 @@ export async function uploadAdminImages(files) {
 }
 
 export function adminImageUrl(path) {
-  if (!path || !path.startsWith('/uploads/')) return path;
-  return new URL(path, new URL(API_BASE_URL, window.location.origin)).href;
+  return mediaUrl(path, API_BASE_URL);
 }
