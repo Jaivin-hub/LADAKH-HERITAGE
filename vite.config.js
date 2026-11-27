@@ -1,13 +1,22 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
+
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     port: 5174,
     proxy: {
-      '/api': { target: 'http://127.0.0.1:4000', changeOrigin: true },
-      '/uploads': { target: 'http://127.0.0.1:4000', changeOrigin: true },
+      '/api': {
+        target: 'https://api.ladakhheritage.com',
+        changeOrigin: true,
+        secure: true,
+      },
+      '/uploads': {
+        target: 'https://api.ladakhheritage.com',
+        changeOrigin: true,
+        secure: true,
+      },
     },
   },
 });
