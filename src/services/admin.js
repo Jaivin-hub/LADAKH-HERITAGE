@@ -1,9 +1,9 @@
 import { mediaUrl } from './media.js';
 import { readApiResponse } from './response.js';
-import { API_BASE_URL } from '../config/api.js';
-export async function adminRequest(resource, data, signal) {
-  const response = await fetch(`${API_BASE_URL.replace(/\/$/, '')}/admin/${resource}`, {
-    method: data ? 'POST' : 'GET',
+import { ADMIN_API_BASE_URL } from '../config/api.js';
+export async function adminRequest(resource, data, signal, method) {
+  const response = await fetch(`${ADMIN_API_BASE_URL.replace(/\/$/, '')}/admin/${resource}`, {
+    method: method || (data ? 'POST' : 'GET'),
     signal,
     ...(data
       ? { headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }
@@ -16,7 +16,7 @@ export async function adminRequest(resource, data, signal) {
 export async function uploadAdminImages(files) {
   const data = new FormData();
   files.forEach((file) => data.append('images', file));
-  const response = await fetch(`${API_BASE_URL.replace(/\/$/, '')}/admin/uploads`, {
+  const response = await fetch(`${ADMIN_API_BASE_URL.replace(/\/$/, '')}/admin/uploads`, {
     method: 'POST',
     body: data,
   });
@@ -25,5 +25,5 @@ export async function uploadAdminImages(files) {
 }
 
 export function adminImageUrl(path) {
-  return mediaUrl(path, API_BASE_URL);
+  return mediaUrl(path, ADMIN_API_BASE_URL);
 }

@@ -929,3 +929,37 @@
     max-height: clamp(180px, calc(100dvh - 430px - env(safe-area-inset-bottom, 0px)), 520px);
   }
 }
+
+.admin-item-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+.admin-item-actions a,
+.admin-item-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid #cbb99a;
+  border-radius: 4px;
+  background: transparent;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.admin-item-actions button {
+  color: #a04432;
+  border-color: #d6aaa0;
+}
+.admin-item-actions button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.admin-item-actions a:focus-visible,
+.admin-item-actions button:focus-visible {
+  outline: 2px solid #254d42;
+  outline-offset: 2px;
+}

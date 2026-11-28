@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, NavLink, Route, Routes, useLocation, useParams } from 'react-router-dom';
 import {
   LayoutDashboard,
   Package,
@@ -9,7 +9,7 @@ import {
   Search,
   RefreshCw,
 } from 'lucide-react';
-import { adminRequest } from '../../services/admin.js';
+import { adminRequest, adminImageUrl } from '../../services/admin.js';
 import { useCatalogue } from '../../context/CatalogueContext.jsx';
 import AdminForm from './AdminForm.jsx';
 import './admin.css';
@@ -17,7 +17,7 @@ import './admin.css';
 function Photo({ src, title }) {
   const [failed, setFailed] = useState(false);
   return src && !failed ? (
-    <img src={src} alt={title} onError={() => setFailed(true)} />
+    <img src={adminImageUrl(src)} alt={title} onError={() => setFailed(true)} />
   ) : (
     <span className="admin-photo-placeholder">
       <Package size={20} />
@@ -119,12 +119,35 @@ export default function AdminPortal() {
               <Route path="/admin" element={<Overview data={data} />} />
               <Route
                 path="/admin/products"
-                element={<Listing key="products" type="products" data={data} reload={reload} />}
+                element={
+                  <Listing
+                    key="products"
+                    type="products"
+                    data={data}
+                    reload={reload}
+                    onSaved={saved}
+                  />
+                }
               />
               <Route
                 path="/admin/categories"
-                element={<Listing key="categories" type="categories" data={data} reload={reload} />}
+                element={
+                  <Listing
+                    key="categories"
+                    type="categories"
+                    data={data}
+                    reload={reload}
+                    onSaved={saved}
+                  />
+                }
               />
+              {['products', 'categories'].map((type) => (
+                <Route
+                  key={type}
+                  path={`/admin/${type}/:id/edit`}
+                  element={<EditItem type={type} data={data} onSaved={saved} />}
+                />
+              ))}
               <Route
                 path="/admin/products/new"
                 element={
@@ -224,7 +247,7 @@ function Overview({ data }) {
     </>
   );
 }
-function ProductTable({ products, categories }) {
+function ProductTable({ products, categories, onDelete, deleting }) {
   if (!products.length)
     return (
       <div className="admin-state">
@@ -245,6 +268,7 @@ function ProductTable({ products, categories }) {
             <th>Collection</th>
             <th>Price</th>
             <th>Status</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -270,6 +294,9 @@ function ProductTable({ products, categories }) {
                   {item.isActive ? 'Active' : 'Draft'}
                 </span>
               </td>
+              <td>
+                <ItemActions type="products" item={item} onDelete={onDelete} deleting={deleting} />
+              </td>
             </tr>
           ))}
         </tbody>
@@ -277,8 +304,29 @@ function ProductTable({ products, categories }) {
     </div>
   );
 }
-function Listing({ type, data, reload }) {
+function Listing({ type, data, reload, onSaved }) {
   const [search, setSearch] = useState('');
+  const [deleting, setDeleting] = useState(null);
+  const [deleteError, setDeleteError] = useState('');
+  const remove = async (item) => {
+    if (
+      deleting ||
+      !window.confirm(
+        `Delete “${item.title}”? This cannot be undone. Uploaded image files will be kept.`,
+      )
+    )
+      return;
+    setDeleting(item.id);
+    setDeleteError('');
+    try {
+      await adminRequest(`${type}/${item.id}`, {}, undefined, 'DELETE');
+      onSaved(`“${item.title}” deleted successfully.`);
+    } catch (error) {
+      setDeleteError(error.message);
+    } finally {
+      setDeleting(null);
+    }
+  };
   const categories = type === 'categories';
   const items = data[type].filter((item) =>
     item.title.toLowerCase().includes(search.toLowerCase()),
@@ -299,6 +347,11 @@ function Listing({ type, data, reload }) {
           <Plus size={17} /> Add {categories ? 'category' : 'product'}
         </Link>
       </div>
+      {deleteError && (
+        <div className="admin-error" role="alert">
+          {deleteError}
+        </div>
+      )}
       <div className="admin-list-toolbar">
         <label>
           <Search size={18} />
@@ -339,16 +392,62 @@ function Listing({ type, data, reload }) {
                   {data.products.filter((product) => product.category === item.slug).length} direct
                   products<span>{item.slug}</span>
                 </footer>
+                <ItemActions type="categories" item={item} onDelete={remove} deleting={deleting} />
               </div>
             </article>
           ))}
         </div>
       ) : (
-        <ProductTable products={items} categories={data.categories} />
+        <ProductTable
+          products={items}
+          categories={data.categories}
+          onDelete={remove}
+          deleting={deleting}
+        />
       )}
       {categories && !data.categories.length && (
         <div className="admin-state">No categories yet. Create your first collection above.</div>
       )}
     </>
+  );
+}
+
+function EditItem({ type, data, onSaved }) {
+  const { id } = useParams();
+  const item = data[type].find((entry) => entry.id === id);
+  if (!item)
+    return (
+      <div className="admin-state">
+        <h2>Item not found</h2>
+        <Link to={`/admin/${type}`}>Back to {type}</Link>
+      </div>
+    );
+  return (
+    <AdminForm
+      key={`${type}-${id}`}
+      type={type}
+      item={item}
+      categories={data.categories}
+      onSaved={onSaved}
+    />
+  );
+}
+function ItemActions({ type, item, onDelete, deleting }) {
+  return (
+    <div className="admin-item-actions">
+      <Link to={`/admin/${type}/${item.id}/edit`} aria-label={`Edit ${item.title}`}>
+        Edit
+      </Link>
+      {onDelete && (
+        <button
+          type="button"
+          disabled={Boolean(deleting)}
+          onClick={() => onDelete(item)}
+          aria-label={`Delete ${item.title}`}
+        >
+          {deleting === item.id ? 'Deleting…' : 'Delete'}
+        </button>
+      )}
+    </div>
   );
 }

@@ -4,14 +4,13 @@ import { ArrowLeft, ImagePlus, Check } from 'lucide-react';
 import ImageUploader from './ImageUploader.jsx';
 import { adminRequest, adminImageUrl } from '../../services/admin.js';
 
-export default function AdminForm({ type, categories, onSaved }) {
+export default function AdminForm({ type, categories, onSaved, item }) {
   const isCategory = type === 'categories';
   const label = isCategory ? 'category' : 'product';
   const navigate = useNavigate();
   const [form, setForm] = useState({
     title: '',
     slug: '',
-    parent: '',
     category: '',
     image: '',
     images: '',
@@ -19,12 +18,16 @@ export default function AdminForm({ type, categories, onSaved }) {
     description: '',
     materials: '',
     origin: 'Ladakh Heritage · Varkala',
-    priceINR: '',
     badge: 'In the store',
     sortOrder: '0',
     isActive: true,
+    ...item,
+    parent: item?.parent || '',
+    priceINR: item?.priceINR ?? '',
   });
-  const [photos, setPhotos] = useState([]);
+  const [photos, setPhotos] = useState(() => [
+    ...new Set([item?.image, ...(item?.images || [])].filter(Boolean)),
+  ]);
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState('');
   const [saving, setSaving] = useState(false);
@@ -37,7 +40,7 @@ export default function AdminForm({ type, categories, onSaved }) {
     setForm((old) => ({
       ...old,
       title: value,
-      ...(isCategory
+      ...(isCategory && !item
         ? {
             slug: value
               .toLowerCase()
@@ -72,8 +75,15 @@ export default function AdminForm({ type, categories, onSaved }) {
           images: photos.slice(1),
         };
     try {
-      await adminRequest(type, payload);
-      onSaved(`${isCategory ? 'Category' : 'Product'} “${form.title}” added successfully.`);
+      await adminRequest(
+        item ? `${type}/${item.id}` : type,
+        payload,
+        undefined,
+        item ? 'PATCH' : 'POST',
+      );
+      onSaved(
+        `${isCategory ? 'Category' : 'Product'} “${form.title}” ${item ? 'updated' : 'added'} successfully.`,
+      );
       navigate(`/admin/${type}`);
     } catch (err) {
       setError(err.message);
@@ -95,7 +105,9 @@ export default function AdminForm({ type, categories, onSaved }) {
       <div className="admin-page-heading">
         <div>
           <p className="admin-eyebrow">GROW YOUR COLLECTION</p>
-          <h1>Add a {label}.</h1>
+          <h1>
+            {item ? 'Edit' : 'Add'} {label}.
+          </h1>
           <p>
             {isCategory
               ? 'Create a collection that brings your pieces together.'
@@ -135,6 +147,7 @@ export default function AdminForm({ type, categories, onSaved }) {
             {isCategory ? (
               <div className="admin-form-row">
                 {field('slug', 'URL slug *', {
+                  readOnly: Boolean(item),
                   required: true,
                   pattern: '[a-z0-9]+(-[a-z0-9]+)*',
                   maxLength: 100,
@@ -143,11 +156,13 @@ export default function AdminForm({ type, categories, onSaved }) {
                   Parent collection
                   <select value={form.parent} onChange={(e) => update('parent', e.target.value)}>
                     <option value="">None — top-level category</option>
-                    {categories.map((item) => (
-                      <option key={item.id} value={item.slug}>
-                        {item.title}
-                      </option>
-                    ))}
+                    {categories
+                      .filter((cat) => cat.id !== item?.id)
+                      .map((item) => (
+                        <option key={item.id} value={item.slug}>
+                          {item.title}
+                        </option>
+                      ))}
                   </select>
                 </label>
               </div>
